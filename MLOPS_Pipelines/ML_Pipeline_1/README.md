@@ -8,3 +8,6 @@ This project demonstrates an end-to-end ML pipeline that includes data preproces
 2. Build the Docker image:
    ```bash
    docker build -t ml-pipeline:1.0 .
+3. Run the Pipeline:
+    ```bash
+    docker run -v $(pwd):/app ml-pipeline:1.0
